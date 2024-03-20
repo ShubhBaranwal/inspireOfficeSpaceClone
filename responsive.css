@@ -1,0 +1,59 @@
+@media screen and (max-width:990px) {
+    .navList{
+        display: none;
+    }
+    .heroSectionContent{
+        flex-direction: column;
+    }
+    .heroLeft{
+        width: 100%;
+    }
+    .heroLeft>img{
+        width:90%;
+    }
+    .heroRight{
+        width: 100%;
+        padding: 50px;
+    }
+
+.workContainer{
+flex-direction: column;
+justify-content: start;
+}
+.work{
+    width: 90%;
+}
+.ourAmenContainer{
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.itemOne{
+    width: 40%;
+}
+
+.faqContainer{
+   padding: 20px 30px;
+}
+
+
+.footer{
+    position: static;
+    
+    flex-direction:column ;
+}
+.footerColumn{
+    width: 100%;
+    
+}
+.footerColumn>ul{
+    position: relative;
+    left: 0;
+    text-align: left;
+}
+.push{
+    height: 50px;
+}
+}
+
+
